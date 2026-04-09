@@ -213,7 +213,7 @@ section { padding: 5.5rem 2rem; }
 .read-more:hover { color: var(--tan-dark); }
 
 /* ── CONTACT ─────────────────────────────────────────── */
-#contact { background: radial-gradient(ellipse at 30% 70%, rgba(196,168,130,0.15) 0%, transparent 50%), linear-gradient(160deg, var(--forest) 0%, #1a3d16 100%); }
+#contact { background: radial-gradient(ellipse at 30% 70%, rgba(196,168,130,0.15) 0%, transparent 50%), linear-gradient(160deg, var(--forest) 0%, #1a3d16 100%); padding-top: 3rem; padding-bottom: 3rem; min-height: calc(100vh - 64px); display: flex; align-items: center; }
 #contact .section-label { color: var(--tan-light); }
 #contact .section-title { color: var(--white); }
 #contact .section-divider { background: linear-gradient(90deg, var(--tan-light), rgba(255,255,255,0.2)); }
