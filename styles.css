@@ -88,7 +88,7 @@ section { padding: 5.5rem 2rem; }
 .section-divider { width: 48px; height: 3px; border-radius: 2px; background: linear-gradient(90deg, var(--tan), var(--forest-mid)); margin-bottom: 3rem; }
 
 /* ── ABOUT ───────────────────────────────────────────── */
-#about { background: var(--cream); }
+#about { background: var(--cream); padding-top: 3rem; padding-bottom: 3rem; min-height: calc(100vh - 64px); }
 .about-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 3.5rem; align-items: start; }
 .about-text p { color: var(--text-mid); margin-bottom: 1.1rem; font-size: 1.05rem; }
 .about-text a { color: var(--forest); font-weight: 600; border-bottom: 1px solid var(--forest-light); transition: border-color 0.2s; }
@@ -128,7 +128,7 @@ section { padding: 5.5rem 2rem; }
 .whoop-note { margin-top: 1.25rem; font-size: 0.72rem; color: rgba(255,255,255,0.25); font-family: 'Segoe UI', sans-serif; text-align: right; }
 
 /* ── EXPERIENCE ──────────────────────────────────────── */
-#experience { background: radial-gradient(ellipse at 100% 0%, rgba(196,168,130,0.12) 0%, transparent 60%), var(--cream-dark); }
+#experience { background: radial-gradient(ellipse at 100% 0%, rgba(196,168,130,0.12) 0%, transparent 60%), var(--cream-dark); padding-top: 3rem; padding-bottom: 3rem; min-height: calc(100vh - 64px); }
 .experience-list { display: flex; flex-direction: column; gap: 1.25rem; }
 .exp-card { background: var(--white); border: 1px solid rgba(196,168,130,0.3); border-radius: var(--radius); padding: 1.5rem 1.75rem; box-shadow: var(--shadow); display: flex; gap: 1.25rem; align-items: flex-start; }
 .exp-icon { width: 48px; height: 48px; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 1.4rem; flex-shrink: 0; }
